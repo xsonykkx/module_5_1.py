@@ -13,9 +13,9 @@ class House:
             print("Такого этажа не существует")
         else:
             print(new_floor)
-     def __len__(self):
+    def __len__(self):
          return self.number_of_floors
-     def __str__(self):
+    def __str__(self):
          return "Название: {0}, кол-во этажей: {1}".format(self.name, self.number_of_floors)
 
 
